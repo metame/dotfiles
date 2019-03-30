@@ -1,0 +1,7 @@
+private_key=$(bosh int ~/ce/bosh-China/bosh-params.yml --path /private_key)
+jumpbox_ip=$(bosh int ~/ce/bosh-China/bosh-params.yml --path /jumpbox_ip)
+export BOSH_ENVIRONMENT=10.0.1.6
+export BOSH_CA_CERT=$(bosh int ~/ce/bosh-China/creds.yml --path /director_ssl/ca)
+export BOSH_CLIENT=admin
+export BOSH_CLIENT_SECRET=$(bosh int ~/ce/bosh-China/creds.yml --path /admin_password)
+export BOSH_ALL_PROXY=ssh+socks5://ubuntu@${jumpbox_ip}:22?private-key=${private_key}
