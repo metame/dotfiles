@@ -1,0 +1,22 @@
+
+;; ----- smex-history -----
+(
+ paredit-mode
+ cider-jack-in
+ package-install
+ package-refresh-contents
+ replace-string
+ make-directory
+ cd
+)
+
+;; ----- smex-data -----
+(
+ (make-directory . 1)
+ (replace-string . 2)
+ (cider-jack-in . 13)
+ (package-install . 12)
+ (package-refresh-contents . 3)
+ (cider . 1)
+ (paredit-mode . 6)
+)

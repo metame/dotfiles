@@ -20,3 +20,4 @@ alias mergepdf='gs -dBATCH -dNOPAUSE -q -sDEVICE=pdfwrite -dPDFSETTINGS=/prepres
 alias yTtoMP3='youtube-dl --extract-audio --audio-format mp3'
 
 if [ -e /Users/me/.nix-profile/etc/profile.d/nix.sh ]; then . /Users/me/.nix-profile/etc/profile.d/nix.sh; fi # added by Nix installer
+

@@ -1,0 +1,133 @@
+;;; -*- coding: utf-8 -*-
+
+;; ----- ido-last-directory-list -----
+(
+ ("/Users/me/truly/mono/phonenumber-processor/src/com/trulywireless/" . "phonenumber_processor/")
+ ("/Users/me/truly/mono/phonenumber-processor/src/com/" . "trulywireless/")
+ ("/Users/me/truly/mono/phonenumber-processor/src/" . "com/")
+ ("/Users/me/truly/mono/phonenumber-processor/" . "src/")
+ ("/Users/me/truly/mono/core-api/src/com/trulywireless/core/" . "api/")
+ ("/Users/me/truly/mono/core-api/src/com/trulywireless/" . "core/")
+ ("/Users/me/truly/mono/core-api/src/com/" . "trulywireless/")
+ ("/Users/me/truly/mono/core-api/src/" . "com/")
+ ("/Users/me/truly/mono/core-api/" . "src/")
+ ("/Users/me/truly/mono/" . "phonenumber-processor/")
+ ("/Users/me/truly/" . "mono/")
+ ("/Users/me/prog/try-clojure/fwpd/src/" . "fwpd/")
+ ("/Users/me/prog/try-clojure/fwpd/" . "src/")
+ ("/Users/me/prog/try-clojure/do-things-exercises/src/" . "do_things_exercises/")
+ ("/Users/me/prog/try-clojure/do-things-exercises/" . "src/")
+ ("/Users/me/prog/try-clojure/shire-model/src/" . "shire_model/")
+ ("/Users/me/prog/try-clojure/shire-model/" . "src/")
+ ("/Users/me/" . "truly/")
+ ("/" . "home/")
+ ("/Users/me/prog/try-clojure/clojure-noob/src/" . "clojure_noob/")
+ ("/Users/me/prog/try-clojure/clojure-noob/" . "src/")
+ ("/Users/me/prog/try-clojure/" . "fwpd/")
+ ("/Users/me/prog/" . "try-clojure/")
+)
+
+;; ----- ido-work-directory-list -----
+(
+ "/Users/me/truly/mono/phonenumber-processor/src/com/trulywireless/phonenumber_processor/"
+ "/Users/me/truly/mono/phonenumber-processor/"
+ "/Users/me/truly/mono/core-api/src/com/trulywireless/core/api/"
+ "/Users/me/truly/mono/core-api/"
+ "/Users/me/prog/try-clojure/fwpd/src/fwpd/"
+ "/Users/me/prog/try-clojure/do-things-exercises/src/do_things_exercises/"
+ "/Users/me/prog/try-clojure/do-things-exercises/"
+ "/Users/me/prog/try-clojure/clojure-noob/"
+ "/Users/me/prog/try-clojure/shire-model/"
+ "/Users/me/prog/try-clojure/shire-model/src/shire_model/"
+ "/Users/me/prog/try-clojure/clojure-noob/src/clojure_noob/"
+ "/Users/me/.emacs.d/"
+ "/Users/me/prog/try-clojure/emacs/"
+)
+
+;; ----- ido-work-file-list -----
+(
+ "core.clj"
+ "README.md"
+ "project.clj"
+ ".gitignore"
+ "init.el"
+ "jack-handy"
+)
+
+;; ----- ido-dir-file-cache -----
+(
+ ("/Users/me/truly/mono/phonenumber-processor/src/com/trulywireless/phonenumber_processor/" (23723 64993 4324 228000) "action_handler.clj" "handler.clj" "core.clj" "routes.clj" "bandwidth_import_processor.clj" "processor.clj" "../" "./")
+
+ ("/Users/me/truly/mono/phonenumber-processor/src/com/trulywireless/notifier/" (23723 64993 3204 991000) "web_notifier.clj" "../" "./")
+
+ ("/Users/me/truly/mono/phonenumber-processor/src/com/trulywireless/" (23723 64993 3427 54000) "phonenumber_processor/" "notifier/" "../" "./")
+
+ ("/Users/me/truly/mono/phonenumber-processor/src/com/" (23723 64993 3059 300000) "trulywireless/" "../" "./")
+
+ ("/Users/me/truly/mono/phonenumber-processor/src/" (23723 64993 3000 581000) "com/" "../" "./")
+
+ ("/Users/me/truly/mono/phonenumber-processor/" (23723 64993 4453 356000) "src/" "docker-run.sh" "dev/" ".gitignore" "Dockerfile.expose" "README.md" "resources/" "Dockerfile" "test/" "project.clj" "../" "./")
+
+ ("/Users/me/truly/mono/" (23724 8742 473248 215000) "java-utils/" "virtual-queue-sync/" "vvm-internal/" "chromeext/" "carrier-line-processor/" "internal-tools/" "clj-core-api-internal-client/" "clj-web-notifier/" "bandwidth-sms/" "test.sh" "ccf-verification-result/" "infrastructure/" "ccf-vm/" ".vscode/" "clj-microsoft-client/" ".git/" "buildspec_ecr.yaml" "js-components/" "clj-ami-client/" "core-api/" "data-expiration-scanner/" "caller-id-service/" "call-router-api-client/" "clj-google-apps-client/" "load-testing/" "clj-salesforce-client/" "intl-billing/" "lein-lib/" "hookie/" "docker-build.sh" "web-admin/" "call-watcher/" "phonenumber-processor/" "clj-utils/" "usage-charger/" "clj-zuora-client/" "notification-voicemail/" ".prettierrc" "extension-availability-sync/" "scripts/" ".nvmrc" "fe-test.sh" "clj-zendesk-client/" "clj-bandwidth-client/" "aggregation-phonecall/" "tslint.json" "call-transition-event-processor/" "package.json" ".gitignore" ".dockerignore" "call-fraud-processor/" "clj-metrics/" "yarn.lock" "truly-loading/" "datasync-zuora/" "switchboard-asterisk/" "README.md" "web-static/" ".editorconfig" "sync-status-event-processor/" "trial-notifier/" "buildspec.yaml" "docs/" "mobile-push-client/" "call-event-notifier/" "mailer/" "appspec.yaml" "truly-ts/" "phonecall-detail-processor/" "integration-tests/" "clojures.txt" "billingd/" "clj-core-common/" "vvm/" "dockerfile-update.sh" "voxbone-sms/" "datasync-zendesk/" "datasync-frontapp/" "web-php/" "clj-twilio-client/" "twilio-sms/" "data-expiration-deleter/" "truly-constants/" "web-server/" "electron-app/" "notification/" "test_shell.sh" "clj-call-router-api-client/" "sippy/" "vvm-qh/" "truly-vscode-workspace.code-workspace" "truly-settings/" "truly-api/" "chrome-app/" ".lein-env" "collect_dependencies.clj" "clj-telynx-client/" "security-checks/" "docker-compose.yaml" "call-router/" "truly-utils/" "clj-sip-uac/" "project.clj" "core-internal/" "buildspec_web.yaml" "core-api-internal/" "recording-processor/" "datasync-salesforce/" "web-app/" "clj-transcription-util/" "../" "./")
+
+ ("/Users/me/truly/mono/core-api/" (23724 8936 447371 428000) "src/" "entrypoint.sh" "docker-run.sh" "manifests/" ".#project.clj" "Dockerfile.env" "dev/" ".gitignore" ".lein-repl-history" "Dockerfile.expose" "README.md" "dev-resources/" ".nrepl-port" "resources/" "target/" "Dockerfile" "test/" ".lein-env" "project.clj" "../" "./")
+
+ ("/Users/me/truly/mono/core-api/src/com/trulywireless/core/helpers/" (23723 64992 694012 701000) "contact.clj" "voicemail_greeting.clj" "form_schema.clj" "license_group.clj" "ccf_client.clj" "node_message.clj" "account.clj" "phone_menu.clj" "recording.clj" "phone_number.clj" "call_log.clj" "twilio_client.clj" "settings.clj" "webrtc.clj" "salesforce.clj" "form_field_merger.clj" "sms_verification.clj" "permission.clj" "voicemail_drop.clj" "extension.clj" "common.clj" "conversation.clj" "call_monitor.clj" "conference_log.clj" "node.clj" "../" "./")
+
+ ("/Users/me/truly/mono/core-api/src/com/trulywireless/core/client/" (23723 64992 689313 964000) "caller_id_fetcher.clj" "phonenumber_processor.clj" "core_api_internal.clj" "../" "./")
+
+ ("/Users/me/truly/mono/core-api/src/com/trulywireless/core/caller_id/" (23723 64992 688729 919000) "service.clj" "../" "./")
+
+ ("/Users/me/truly/mono/core-api/src/com/trulywireless/core/api/" (23723 64992 688140 128000) "routes/" "errors/" "handler.clj" "serializer.clj" "schemas/" "core.clj" "metrics.clj" "util/" "../" "./")
+
+ ("/Users/me/truly/mono/core-api/src/com/trulywireless/core/" (23723 64992 695674 17000) "external_contact/" "helpers/" "client/" "api/" "search/" "caller_id/" "random_rep.clj" "middleware/" "../" "./")
+
+ ("/Users/me/truly/mono/core-api/src/com/trulywireless/" (23723 64992 673007 932000) "core/" "../" "./")
+
+ ("/Users/me/truly/mono/core-api/src/com/" (23723 64992 672958 511000) "trulywireless/" "../" "./")
+
+ ("/Users/me/truly/mono/core-api/src/" (23723 64992 672696 539000) "com/" "../" "./")
+
+ ("/Users/me/truly/" (23723 64953 977796 201000) "mono/" "../" "./")
+
+ ("/Users/me/" (23723 65143 73956 996000) ".composer/" "dappy-pgps" ".viminfo" ".bash_history" ".gitexcludes" ".gitconfig" ".aws/" ".cache/" ".python_history" "Downloads/" "ce/" ".gem/" ".dvdcss/" ".bash_profile" ".m2/" ".vscode/" ".git/" "conf.d/" ".babel.json" "t.png" "Documents/" ".npm/" ".papertrail.yml" ".zoomus/" ".Trash/" "mm" ".ghc/" "Applications/" "Movies/" ".ssh/" "MCS - Flyer 9:3:18.pdf" "MCS - Flyer 9:2:18 rev2.pdf" ".gitignore" "MCS - Flyer 8:25.pdf" "Public/" ".lein/" ".sbt/" "Google Drive/" ".bash_sessions/" ".cups/" "dev_blue_template.json" "prog/" ".now/" ".android/" ".node_repl_history" ".nix-defexpr/" "README.md" ".emacs.d/" "MCS - Flyer 8-25 rev3.pdf" "xdebug-2.6.1/" ".oracle_jre_usage/" ".erlang.cookie" "MCS - Flyer 8-25 rev2.pdf" "Library/" "Desktop/" "Dynamo/" ".phpls/" ".boto" "psc-package/" ".flow-typed/" ".nix-profile/" ".nvm/" "Pictures/" ".psql_history" ".local/" "Audiobooks/" ".subversion/" ".netrc" "backup.ab" "MCS - Flyer.pdf" ".tooling/" ".wget-hsts" "package.xml" "MCS - Flyer.pages" "MCS - Flyer 9:2:18.pdf" ".CFUserTextEncoding" ".yarnrc" "globals.sql" "shared-local-instance.db" ".DS_Store" ".php_history" ".vim/" "truly/" ".node-gyp/" ".ivy2/" ".docker/" ".bash_profile.d/" "helloworld" "Music/" ".config/" ".stack/" ".bosh/" ".nix-channels" "../" "./")
+
+ ("/Users/me/prog/try-clojure/fwpd/src/fwpd/" (23722 14811 666571 996000) "core.clj" "../" "./")
+
+ ("/Users/me/prog/try-clojure/fwpd/src/" (23722 14811 666498 83000) "fwpd/" "../" "./")
+
+ ("/Users/me/prog/try-clojure/fwpd/" (23722 14849 293884 271000) "src/" "doc/" ".gitignore" "README.md" "resources/" ".hgignore" "suspects.csv" "CHANGELOG.md" "test/" "LICENSE" "project.clj" "../" "./")
+
+ ("/Users/me/prog/try-clojure/" (23722 14811 661835 399000) ".git/" "fwpd/" "clojure-noob/" "README.md" "emacs/" "shire-model/" "do-things-exercises/" "../" "./")
+
+ ("/Users/me/prog/try-clojure/do-things-exercises/src/do_things_exercises/" (23720 10506 725201 352000) "core.clj" "../" "./")
+
+ ("/Users/me/prog/try-clojure/do-things-exercises/" (23720 10361 394201 901000) "src/" "doc/" ".gitignore" "README.md" ".nrepl-port" "resources/" ".hgignore" "target/" "CHANGELOG.md" "test/" "LICENSE" "project.clj" "../" "./")
+
+ ("/Users/me/prog/try-clojure/do-things-exercises/src/" (23720 3764 405511 555000) "do_things_exercises/" "../" "./")
+
+ ("/Users/me/prog/try-clojure/shire-model/src/shire_model/" (23718 61857 119428 916000) "core.clj" "../" "./")
+
+ ("/Users/me/prog/try-clojure/clojure-noob/" (23718 62280 995039 319000) "src/" "doc/" ".gitignore" ".lein-repl-history" "README.md" ".nrepl-port" "target/" "CHANGELOG.md" "test/" "LICENSE" "project.clj" "../" "./")
+
+ ("/Users/me/prog/try-clojure/shire-model/" (23718 62238 857626 223000) "src/" "doc/" ".gitignore" "README.md" ".nrepl-port" "target/" "CHANGELOG.md" "test/" "LICENSE" "project.clj" "../" "./")
+
+ ("/Users/me/prog/try-clojure/shire-model/src/" (23677 26606 339371 218000) "shire_model/" "../" "./")
+
+ ("/Users/me/prog/try-clojure/clojure-noob/src/clojure_noob/" (23716 61405 489311 863000) ".#core.clj" "core.clj" "../" "./")
+
+ ("/Users/me/.emacs.d/" (23712 19826 726263 829000) ".smex-items" "backups/" "themes/" "old.git/" "emacs-for-clojure-book1.zip" "elpa/" "recentf" ".gitignore" ".recentf" "init.el" ".init.el.swp" "auto-save-list/" "etc/" "transient/" "projectile-bookmarks.eld" "customizations/" "lisp/" "emacs-for-clojure-book1/" "ido.last" "forge-database.sqlite" "snippets/" "../" "./")
+
+ ("/home/" (23710 16063 702034 0) "../" "./")
+
+ ("/Users/" (23498 49818 194982 483000) "Guest/" "me/" "Shared/" ".localized" "../" "./")
+
+ ("/Users/me/prog/try-clojure/emacs/" (23710 65062 26871 324000) ".#jack-handy" "../" "./")
+
+ ("/Users/me/prog/try-clojure/clojure-noob/src/" (23677 26606 337419 582000) "clojure_noob/" "../" "./")
+
+ ("/Users/me/prog/" (23697 6256 731074 227000) "purescript-obj-log-diff/" "messenger-webhook/" "diff-that-json/" "try-rio/" "caller-id-service/" "learn-haskell/" "try-simple-json/" "ts-algorithms/" "try-clojure/" "purescript-dynamodb/" ".gitignore" "analytics-api/" "ch2/" "learn-purescript/" "obj-log-diff/" "emacs/" "purescript-aws-sdk-gen/" "typescript-lib-starter/" "ts-node-api/" "purescript-book/" "webgeeks-fp-talk/" "rando/" "try-servant/" "try-yesod/" "se paper audios/" "try-spacchetti/" ".DS_Store" "scala-with-cats/" "dynamodump/" "try-spago/" "try-obj-log-diff/" "../" "./")
+)
+
+;; ----- ido-unc-hosts-cache -----
+t

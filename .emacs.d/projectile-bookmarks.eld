@@ -1,0 +1,1 @@
+("~/truly/mono/" "~/prog/try-clojure/" "~/" "~/.emacs.d/")
