@@ -320,7 +320,7 @@
   :preface (defvar region-fg nil)
   :config
   (load-theme 'doom-dracula t)
-  (set-face-attribute 'default nil :family "PragmataPro")
+  (set-face-attribute 'default nil :family "PragmataPro" :width 'normal)
   (set-face-attribute 'default nil :height 130))
 
 (use-package powerline
@@ -521,6 +521,9 @@
 ;; These customizations change the way emacs looks and disable/enable
 ;; some user interface elements
 ;; (load "ui.el")
+
+(add-to-list 'default-frame-alist
+                       '(font . "DejaVu Sans Mono-12"))
 
 
 (setq debug-on-error nil)

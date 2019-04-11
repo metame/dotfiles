@@ -2,6 +2,18 @@
 
 ;; ----- ido-last-directory-list -----
 (
+ ("/Users/me/.emacs.d/" . "etc/")
+ ("/Users/me/truly/mono/clj-core-common/src/com/trulywireless/core/db/" . "query/")
+ ("/Users/me/truly/mono/clj-core-common/src/com/trulywireless/core/" . "model/")
+ ("/Users/me/truly/mono/clj-core-common/src/com/trulywireless/" . "core/")
+ ("/Users/me/truly/mono/clj-core-common/src/com/" . "trulywireless/")
+ ("/Users/me/truly/mono/clj-core-common/src/" . "com/")
+ ("/Users/me/truly/mono/clj-core-common/" . "src/")
+ ("/Users/me/truly/mono/clj-utils/src/com/trulywireless/" . "db/")
+ ("/Users/me/truly/mono/clj-utils/src/com/" . "trulywireless/")
+ ("/Users/me/truly/mono/clj-utils/src/" . "com/")
+ ("/Users/me/truly/mono/clj-utils/" . "src/")
+ ("/Users/me/truly/mono/core-api/src/com/trulywireless/core/api/" . "routes/")
  ("/Users/me/truly/mono/phonenumber-processor/src/com/trulywireless/" . "phonenumber_processor/")
  ("/Users/me/truly/mono/phonenumber-processor/src/com/" . "trulywireless/")
  ("/Users/me/truly/mono/phonenumber-processor/src/" . "com/")
@@ -11,7 +23,7 @@
  ("/Users/me/truly/mono/core-api/src/com/" . "trulywireless/")
  ("/Users/me/truly/mono/core-api/src/" . "com/")
  ("/Users/me/truly/mono/core-api/" . "src/")
- ("/Users/me/truly/mono/" . "phonenumber-processor/")
+ ("/Users/me/truly/mono/" . "core-api/")
  ("/Users/me/truly/" . "mono/")
  ("/Users/me/prog/try-clojure/fwpd/src/" . "fwpd/")
  ("/Users/me/prog/try-clojure/fwpd/" . "src/")
@@ -19,8 +31,8 @@
  ("/Users/me/prog/try-clojure/do-things-exercises/" . "src/")
  ("/Users/me/prog/try-clojure/shire-model/src/" . "shire_model/")
  ("/Users/me/prog/try-clojure/shire-model/" . "src/")
- ("/Users/me/" . "truly/")
- ("/" . "home/")
+ ("/Users/me/" . ".emacs.d/")
+ ("/" . "usr/")
  ("/Users/me/prog/try-clojure/clojure-noob/src/" . "clojure_noob/")
  ("/Users/me/prog/try-clojure/clojure-noob/" . "src/")
  ("/Users/me/prog/try-clojure/" . "fwpd/")
@@ -29,10 +41,20 @@
 
 ;; ----- ido-work-directory-list -----
 (
+ "/Users/me/.emacs.d/etc/"
+ "/Users/me/.emacs.d/"
+ "/Users/me/truly/mono/core-api/src/com/trulywireless/core/api/routes/"
+ "/Users/me/.emacs.d/themes/"
+ "/Users/me/.emacs.d/customizations/"
+ "/Users/me/truly/mono/"
+ "/Users/me/truly/mono/core-api/"
+ "/Users/me/truly/mono/core-api/dev/"
+ "/Users/me/truly/mono/core-api/src/com/trulywireless/core/api/"
+ "/Users/me/truly/mono/clj-core-common/src/com/trulywireless/core/model/"
+ "/Users/me/truly/mono/clj-core-common/src/com/trulywireless/core/db/query/"
+ "/Users/me/truly/mono/clj-utils/src/com/trulywireless/db/"
  "/Users/me/truly/mono/phonenumber-processor/src/com/trulywireless/phonenumber_processor/"
  "/Users/me/truly/mono/phonenumber-processor/"
- "/Users/me/truly/mono/core-api/src/com/trulywireless/core/api/"
- "/Users/me/truly/mono/core-api/"
  "/Users/me/prog/try-clojure/fwpd/src/fwpd/"
  "/Users/me/prog/try-clojure/do-things-exercises/src/do_things_exercises/"
  "/Users/me/prog/try-clojure/do-things-exercises/"
@@ -40,22 +62,87 @@
  "/Users/me/prog/try-clojure/shire-model/"
  "/Users/me/prog/try-clojure/shire-model/src/shire_model/"
  "/Users/me/prog/try-clojure/clojure-noob/src/clojure_noob/"
- "/Users/me/.emacs.d/"
  "/Users/me/prog/try-clojure/emacs/"
 )
 
 ;; ----- ido-work-file-list -----
 (
- "core.clj"
- "README.md"
- "project.clj"
- ".gitignore"
+ "custom.el"
  "init.el"
- "jack-handy"
+ "sms.clj"
+ "color-theme-tomorrow.el"
+ "tomorrow-night-bright-theme.el"
+ "ui.el"
+ "project.clj"
+ "user.clj"
+ "core.clj"
+ "sms_thread.clj"
 )
 
 ;; ----- ido-dir-file-cache -----
 (
+ ("/Users/me/.emacs.d/etc/" (23725 35482 439436 974000) "custom.el" "../" "./")
+
+ ("/Users/me/.emacs.d/" (23726 14489 146528 388000) ".smex-items" "backups/" "themes/" "emacs-for-clojure-book1.zip" "elpa/" "network-security.data" "oldgit/" ".gitignore" ".recentf" "init.el" "auto-save-list/" "etc/" "transient/" "projectile-bookmarks.eld" "customizations/" "lisp/" "emacs-for-clojure-book1/" "ido.last" "forge-database.sqlite" "snippets/" "../" "./")
+
+ ("/usr/" (23614 31554 0 0) "share/" "lib/" "local/" "sbin/" "libexec/" "standalone/" "bin/" "../" "./")
+
+ ("/home/" (23726 11318 359108 0) "../" "./")
+
+ ("/Users/" (23725 28619 131240 920000) "Guest/" "me/" "Shared/" ".localized" "../" "./")
+
+ ("/Users/me/truly/mono/core-api/src/com/trulywireless/core/api/routes/" (23726 2430 283144 811000) "voicemail_greeting.clj" "license_group.clj" "phone_call.clj" "mobile_logs.clj" "account.clj" "audio_conversation.clj" "policy.clj" "settings.clj" "phone_numbers.clj" "sms.clj" "tokens.clj" "login.clj" "disposition.clj" "conference_phones.clj" "conferences.clj" "search/" "disposition_list.clj" "nodes.clj" "extensions.clj" "permission.clj" "voicemail_drop.clj" "messages.clj" "form.clj" "integrations.clj" "invites.clj" "call_feedback.clj" "device.clj" "transferable.clj" "conversation.clj" "directory.clj" "dashboards.clj" "gatekeeper.clj" "external_forwards.clj" "reporting/" "phone_menus.clj" "../" "./")
+
+ ("/Users/me/truly/mono/core-api/" (23726 13241 771643 164000) "src/" "entrypoint.sh" "docker-run.sh" "manifests/" "Dockerfile.env" "dev/" ".gitignore" "Dockerfile.expose" "README.md" "dev-resources/" "resources/" "target/" "Dockerfile" "test/" ".lein-env" "project.clj" "../" "./")
+
+ ("/Users/me/.emacs.d/themes/" (23725 35321 155780 903000) "zenburn-theme.el" "tomorrow-night-eighties-theme.el" "color-theme-tomorrow.el" "tomorrow-theme.el" "tomorrow-night-blue-theme.el" "tomorrow-night-bright-theme.el" "tomorrow-night-theme.el" "../" "./")
+
+ ("/Users/me/.emacs.d/customizations/" (23725 35321 138752 890000) "elisp-editing.el" "setup-js.el" "navigation.el" "editing.el" "setup-clojure.el" "misc.el" "shell-integration.el" "ui.el" "../" "./")
+
+ ("/Users/me/" (23726 12906 964435 90000) ".viminfo" ".bash_history" ".gitexcludes" ".gitconfig" ".aws/" "Downloads/" ".bash_profile" "unused.bash_profiles/" ".m2/" ".git/" ".mysql_history" "Documents/" ".zoomus/" ".Trash/" "Applications/" "Movies/" ".ssh/" ".gitignore" "Public/" ".lein/" ".bash_sessions/" "prog/" "README.md" ".emacs.d/" ".oracle_jre_usage/" "Library/" "Desktop/" "Pictures/" ".CFUserTextEncoding" "dotfiles/" ".gnupg/" ".DS_Store" "truly/" ".bash_profile.d/" "Music/" "../" "./")
+
+ ("/Users/me/truly/mono/core-api/dev/" (23725 30655 686384 205000) "user.clj" "routes.http" "../" "./")
+
+ ("/Users/me/truly/mono/" (23726 1728 582891 884000) "java-utils/" "virtual-queue-sync/" "vvm-internal/" "chromeext/" "carrier-line-processor/" "internal-tools/" "clj-core-api-internal-client/" "clj-web-notifier/" "bandwidth-sms/" "test.sh" "ccf-verification-result/" "infrastructure/" "ccf-vm/" ".vscode/" "clj-microsoft-client/" ".git/" "buildspec_ecr.yaml" "js-components/" "clj-ami-client/" "core-api/" "data-expiration-scanner/" "caller-id-service/" "call-router-api-client/" "clj-google-apps-client/" "load-testing/" "clj-salesforce-client/" "intl-billing/" "lein-lib/" "hookie/" "docker-build.sh" "web-admin/" "call-watcher/" "phonenumber-processor/" "clj-utils/" "usage-charger/" "clj-zuora-client/" "notification-voicemail/" ".prettierrc" "extension-availability-sync/" "scripts/" ".nvmrc" "fe-test.sh" "clj-zendesk-client/" "clj-bandwidth-client/" "aggregation-phonecall/" "tslint.json" "call-transition-event-processor/" "package.json" ".gitignore" ".dockerignore" "call-fraud-processor/" "clj-metrics/" "yarn.lock" "truly-loading/" "datasync-zuora/" "switchboard-asterisk/" "README.md" "web-static/" ".editorconfig" "sync-status-event-processor/" "trial-notifier/" "buildspec.yaml" "docs/" "mobile-push-client/" "call-event-notifier/" "mailer/" "appspec.yaml" "truly-ts/" "phonecall-detail-processor/" "integration-tests/" "clojures.txt" "billingd/" "clj-core-common/" "vvm/" "dockerfile-update.sh" "voxbone-sms/" "datasync-zendesk/" "datasync-frontapp/" "web-php/" "clj-twilio-client/" "twilio-sms/" "data-expiration-deleter/" "truly-constants/" "web-server/" "electron-app/" "notification/" "test_shell.sh" "clj-call-router-api-client/" "sippy/" "vvm-qh/" "truly-vscode-workspace.code-workspace" "truly-settings/" "truly-api/" "chrome-app/" ".lein-env" "collect_dependencies.clj" "clj-telynx-client/" "security-checks/" "docker-compose.yaml" "call-router/" "truly-utils/" "clj-sip-uac/" "project.clj" "core-internal/" "buildspec_web.yaml" "core-api-internal/" "recording-processor/" "datasync-salesforce/" "web-app/" "clj-transcription-util/" "../" "./")
+
+ ("/Users/me/truly/mono/clj-core-common/src/com/trulywireless/core/model/" (23725 30655 635531 989000) "invite.clj" "phone_call_provider_sync.clj" "conference.clj" "form_spec_element.clj" "voicemail_greeting.clj" "blocked_number.clj" "license_group.clj" "phone_call.clj" "node_message.clj" "credential.clj" "account.clj" "role.clj" "phone_menu.clj" "frontapp_credential.clj" "callback_opt_in.clj" "account_setting.clj" "license_group_account.clj" "gcm_token.clj" "zuora_usage_daily.clj" "session.clj" "external_reference_relation.clj" "recording.clj" "phone_number.clj" "dynamic_destination.clj" "voicemail.clj" "account_policy.clj" "charge.clj" "form_spec.clj" "form_spec_element_external_field.clj" "zuora_usage_charge.clj" "dynamic_route.clj" "credit_balance.clj" "phone_call_external_reference.clj" "app_version.clj" "policy.clj" "rule.clj" "conference_detail.clj" "node_extension.clj" "apns_token.clj" "ice_server.clj" "sms.clj" "api_credential.clj" "rule_action.clj" "disposition.clj" "voip_token.clj" "dashboard.clj" "license_group_extension.clj" "role_setting.clj" "conference_external_contact.clj" "client_version.clj" "subscription.clj" "international_rate.clj" "sms_thread.clj" "rule_condition.clj" "role_permission.clj" "sms_external_reference.clj" "disposition_list.clj" "recording_file.clj" "phone_call_external_contact.clj" "phone_call_detail.clj" "analytics_file.clj" "permission.clj" "voicemail_drop.clj" "message.clj" "plan.clj" "credit_balance_adjustment.clj" "phone_call_extension_detail.clj" "zendesk_token.clj" "role_policy.clj" "zuora_signup.clj" "rule_scheme.clj" "termination_trunk.clj" "conference_participant.clj" "extension_channel.clj" "phonecall_recording.clj" "license_group_setting.clj" "node_selection.clj" "form.clj" "extension.clj" "account_permission.clj" "signup_whitelist.clj" "conversation_tracker.clj" "phone_call_monitor_log.clj" "node_role.clj" "hunt_group.clj" "sms_salesforce_data.clj" "rule_param.clj" "call_feedback.clj" "device.clj" "external_switch.clj" "extension_availability_derived.clj" "invite_permission.clj" "extension_availability.clj" "license_group_policy.clj" "account_role.clj" "conference_provider_sync.clj" "conference_external_reference.clj" "phonecall_external_metadata.clj" "system_setting.clj" "webhook.clj" "proxy_number.clj" "form_submission.clj" "caller_id.clj" "phone_call_salesforce_data.clj" "node.clj" "../" "./")
+
+ ("/Users/me/truly/mono/clj-core-common/src/com/trulywireless/core/db/query/" (23725 30655 622461 74000) "invite.clj" "phone_call_provider_sync.clj" "conference.clj" "form_spec_element.clj" "voicemail_greeting.clj" "blocked_number.clj" "license_group.clj" "phone_call.clj" "node_message.clj" "call_fraud_prone_countries.clj" "credential.clj" "account.clj" "role.clj" "phone_menu.clj" "frontapp_credential.clj" "callback_opt_in.clj" "account_setting.clj" "license_group_account.clj" "gcm_token.clj" "zuora_usage_daily.clj" "session.clj" "external_reference_relation.clj" "recording.clj" "phone_number.clj" "dynamic_destination.clj" "voicemail.clj" "account_policy.clj" "charge.clj" "form_spec.clj" "form_spec_element_external_field.clj" "zuora_usage_charge.clj" "dynamic_route.clj" "credit_balance.clj" "phone_call_external_reference.clj" "app_version.clj" "phone_menu_root_number.clj" "policy.clj" "rule.clj" "conference_detail.clj" "node_extension.clj" "apns_token.clj" "ice_server.clj" "yesql/" "sms.clj" "api_credential.clj" "rule_action.clj" "disposition.clj" "voip_token.clj" "dashboard.clj" "license_group_extension.clj" "role_setting.clj" "conference_external_contact.clj" "client_version.clj" "subscription.clj" "international_rate.clj" "sms_thread.clj" "rule_condition.clj" "role_permission.clj" "sms_external_reference.clj" "disposition_list.clj" "recording_file.clj" "phone_call_external_contact.clj" "phone_call_detail.clj" "analytics_file.clj" "permission.clj" "voicemail_drop.clj" "message.clj" "plan.clj" "credit_balance_adjustment.clj" "phone_call_extension_detail.clj" "zendesk_token.clj" "role_policy.clj" "zuora_signup.clj" "rule_scheme.clj" "termination_trunk.clj" "conference_participant.clj" "extension_channel.clj" "phonecall_recording.clj" "license_group_setting.clj" "node_selection.clj" "form.clj" "extension.clj" "account_permission.clj" "signup_whitelist.clj" "conversation_tracker.clj" "phone_call_monitor_log.clj" "node_role.clj" "hunt_group.clj" "sms_salesforce_data.clj" "rule_param.clj" "call_feedback.clj" "device.clj" "external_switch.clj" "extension_availability_derived.clj" "invite_permission.clj" "extension_availability.clj" "license_group_policy.clj" "account_role.clj" "conference_provider_sync.clj" "conference_external_reference.clj" "phonecall_external_metadata.clj" "system_setting.clj" "webhook.clj" "proxy_number.clj" "form_submission.clj" "phone_call_salesforce_data.clj" "node.clj" "metrics/" "../" "./")
+
+ ("/Users/me/truly/mono/clj-core-common/src/com/trulywireless/core/db/" (23725 30655 602943 918000) "query/" "../" "./")
+
+ ("/Users/me/truly/mono/clj-core-common/src/com/trulywireless/core/" (23725 30655 642419 422000) "blocked_number.clj" "policy/" "events/" "node/" "notification_events/" "ring/" "account_events/" "permissions.clj" "call_transition_events/" "queue_calls/" "db/" "rules/" "actions/" "model/" "locker/" "rate_limit/" "region/" "avro.clj" "call_events/" "schemas/" "trunk.clj" "converters/" "business/" "recording/" "sms_events/" "metrics.clj" "util/" "role/" "conference_events/" "form/" "sip_extension.clj" "sync_status_events/" "urls.clj" "settings/" "metrics/" "../" "./")
+
+ ("/Users/me/truly/mono/clj-core-common/src/com/trulywireless/" (23725 30655 643873 593000) "availability/" "phonenumber/" "asterisk/" "datasync/" "core/" "reporting/" "settings/" "../" "./")
+
+ ("/Users/me/truly/mono/clj-core-common/src/com/" (23725 30655 595377 927000) "trulywireless/" "../" "./")
+
+ ("/Users/me/truly/mono/clj-core-common/src/" (23725 30655 595337 60000) "com/" "../" "./")
+
+ ("/Users/me/truly/mono/clj-core-common/" (23725 30655 644257 7000) "src/" "dev/" ".gitignore" "README.md" "resources/" "test/" "migrations/" "project.clj" "../" "./")
+
+ ("/Users/me/truly/mono/clj-utils/src/com/trulywireless/db/" (23725 30655 666641 259000) "common.clj" "query.clj" "component.clj" "../" "./")
+
+ ("/Users/me/truly/mono/clj-utils/src/com/trulywireless/" (23725 30655 667265 44000) "db/" "kafka/" "geoip/" "util/" "chan/" "../" "./")
+
+ ("/Users/me/truly/mono/clj-utils/src/com/" (23725 30655 665866 677000) "trulywireless/" "../" "./")
+
+ ("/Users/me/truly/mono/clj-utils/src/" (23725 30655 665836 483000) "com/" "../" "./")
+
+ ("/Users/me/truly/mono/clj-utils/" (23725 33734 612550 290000) "src/" "tree.txt" "doc/" ".gitignore" "README.md" "resources/" "test/" "project.clj" "../" "./")
+
+ ("/Users/me/truly/mono/core-api/src/com/trulywireless/core/api/" (23725 30655 720012 213000) "routes/" "errors/" "handler.clj" "serializer.clj" "schemas/" "core.clj" "metrics.clj" "util/" "../" "./")
+
+ ("/Users/me/truly/mono/core-api/src/com/trulywireless/core/" (23725 30655 725789 368000) "external_contact/" "helpers/" "client/" "api/" "search/" "caller_id/" "random_rep.clj" "middleware/" "../" "./")
+
+ ("/Users/me/truly/mono/core-api/src/com/trulywireless/" (23725 30655 708647 17000) "core/" "../" "./")
+
+ ("/Users/me/truly/mono/core-api/src/com/" (23725 30655 708616 528000) "trulywireless/" "../" "./")
+
+ ("/Users/me/truly/mono/core-api/src/" (23725 30655 708584 146000) "com/" "../" "./")
+
+ ("/Users/me/truly/" (23725 34036 422315 394000) "mono/" "michaele-dev-us1.tar.gz.gpg" "michaele-dev-us1/" "aws-creds.csv" "michael-credentials.csv.gpg" "vpn-config.tar.gz" "../" "./")
+
  ("/Users/me/truly/mono/phonenumber-processor/src/com/trulywireless/phonenumber_processor/" (23723 64993 4324 228000) "action_handler.clj" "handler.clj" "core.clj" "routes.clj" "bandwidth_import_processor.clj" "processor.clj" "../" "./")
 
  ("/Users/me/truly/mono/phonenumber-processor/src/com/trulywireless/notifier/" (23723 64993 3204 991000) "web_notifier.clj" "../" "./")
@@ -68,29 +155,11 @@
 
  ("/Users/me/truly/mono/phonenumber-processor/" (23723 64993 4453 356000) "src/" "docker-run.sh" "dev/" ".gitignore" "Dockerfile.expose" "README.md" "resources/" "Dockerfile" "test/" "project.clj" "../" "./")
 
- ("/Users/me/truly/mono/" (23724 8742 473248 215000) "java-utils/" "virtual-queue-sync/" "vvm-internal/" "chromeext/" "carrier-line-processor/" "internal-tools/" "clj-core-api-internal-client/" "clj-web-notifier/" "bandwidth-sms/" "test.sh" "ccf-verification-result/" "infrastructure/" "ccf-vm/" ".vscode/" "clj-microsoft-client/" ".git/" "buildspec_ecr.yaml" "js-components/" "clj-ami-client/" "core-api/" "data-expiration-scanner/" "caller-id-service/" "call-router-api-client/" "clj-google-apps-client/" "load-testing/" "clj-salesforce-client/" "intl-billing/" "lein-lib/" "hookie/" "docker-build.sh" "web-admin/" "call-watcher/" "phonenumber-processor/" "clj-utils/" "usage-charger/" "clj-zuora-client/" "notification-voicemail/" ".prettierrc" "extension-availability-sync/" "scripts/" ".nvmrc" "fe-test.sh" "clj-zendesk-client/" "clj-bandwidth-client/" "aggregation-phonecall/" "tslint.json" "call-transition-event-processor/" "package.json" ".gitignore" ".dockerignore" "call-fraud-processor/" "clj-metrics/" "yarn.lock" "truly-loading/" "datasync-zuora/" "switchboard-asterisk/" "README.md" "web-static/" ".editorconfig" "sync-status-event-processor/" "trial-notifier/" "buildspec.yaml" "docs/" "mobile-push-client/" "call-event-notifier/" "mailer/" "appspec.yaml" "truly-ts/" "phonecall-detail-processor/" "integration-tests/" "clojures.txt" "billingd/" "clj-core-common/" "vvm/" "dockerfile-update.sh" "voxbone-sms/" "datasync-zendesk/" "datasync-frontapp/" "web-php/" "clj-twilio-client/" "twilio-sms/" "data-expiration-deleter/" "truly-constants/" "web-server/" "electron-app/" "notification/" "test_shell.sh" "clj-call-router-api-client/" "sippy/" "vvm-qh/" "truly-vscode-workspace.code-workspace" "truly-settings/" "truly-api/" "chrome-app/" ".lein-env" "collect_dependencies.clj" "clj-telynx-client/" "security-checks/" "docker-compose.yaml" "call-router/" "truly-utils/" "clj-sip-uac/" "project.clj" "core-internal/" "buildspec_web.yaml" "core-api-internal/" "recording-processor/" "datasync-salesforce/" "web-app/" "clj-transcription-util/" "../" "./")
-
- ("/Users/me/truly/mono/core-api/" (23724 8936 447371 428000) "src/" "entrypoint.sh" "docker-run.sh" "manifests/" ".#project.clj" "Dockerfile.env" "dev/" ".gitignore" ".lein-repl-history" "Dockerfile.expose" "README.md" "dev-resources/" ".nrepl-port" "resources/" "target/" "Dockerfile" "test/" ".lein-env" "project.clj" "../" "./")
-
  ("/Users/me/truly/mono/core-api/src/com/trulywireless/core/helpers/" (23723 64992 694012 701000) "contact.clj" "voicemail_greeting.clj" "form_schema.clj" "license_group.clj" "ccf_client.clj" "node_message.clj" "account.clj" "phone_menu.clj" "recording.clj" "phone_number.clj" "call_log.clj" "twilio_client.clj" "settings.clj" "webrtc.clj" "salesforce.clj" "form_field_merger.clj" "sms_verification.clj" "permission.clj" "voicemail_drop.clj" "extension.clj" "common.clj" "conversation.clj" "call_monitor.clj" "conference_log.clj" "node.clj" "../" "./")
 
  ("/Users/me/truly/mono/core-api/src/com/trulywireless/core/client/" (23723 64992 689313 964000) "caller_id_fetcher.clj" "phonenumber_processor.clj" "core_api_internal.clj" "../" "./")
 
  ("/Users/me/truly/mono/core-api/src/com/trulywireless/core/caller_id/" (23723 64992 688729 919000) "service.clj" "../" "./")
-
- ("/Users/me/truly/mono/core-api/src/com/trulywireless/core/api/" (23723 64992 688140 128000) "routes/" "errors/" "handler.clj" "serializer.clj" "schemas/" "core.clj" "metrics.clj" "util/" "../" "./")
-
- ("/Users/me/truly/mono/core-api/src/com/trulywireless/core/" (23723 64992 695674 17000) "external_contact/" "helpers/" "client/" "api/" "search/" "caller_id/" "random_rep.clj" "middleware/" "../" "./")
-
- ("/Users/me/truly/mono/core-api/src/com/trulywireless/" (23723 64992 673007 932000) "core/" "../" "./")
-
- ("/Users/me/truly/mono/core-api/src/com/" (23723 64992 672958 511000) "trulywireless/" "../" "./")
-
- ("/Users/me/truly/mono/core-api/src/" (23723 64992 672696 539000) "com/" "../" "./")
-
- ("/Users/me/truly/" (23723 64953 977796 201000) "mono/" "../" "./")
-
- ("/Users/me/" (23723 65143 73956 996000) ".composer/" "dappy-pgps" ".viminfo" ".bash_history" ".gitexcludes" ".gitconfig" ".aws/" ".cache/" ".python_history" "Downloads/" "ce/" ".gem/" ".dvdcss/" ".bash_profile" ".m2/" ".vscode/" ".git/" "conf.d/" ".babel.json" "t.png" "Documents/" ".npm/" ".papertrail.yml" ".zoomus/" ".Trash/" "mm" ".ghc/" "Applications/" "Movies/" ".ssh/" "MCS - Flyer 9:3:18.pdf" "MCS - Flyer 9:2:18 rev2.pdf" ".gitignore" "MCS - Flyer 8:25.pdf" "Public/" ".lein/" ".sbt/" "Google Drive/" ".bash_sessions/" ".cups/" "dev_blue_template.json" "prog/" ".now/" ".android/" ".node_repl_history" ".nix-defexpr/" "README.md" ".emacs.d/" "MCS - Flyer 8-25 rev3.pdf" "xdebug-2.6.1/" ".oracle_jre_usage/" ".erlang.cookie" "MCS - Flyer 8-25 rev2.pdf" "Library/" "Desktop/" "Dynamo/" ".phpls/" ".boto" "psc-package/" ".flow-typed/" ".nix-profile/" ".nvm/" "Pictures/" ".psql_history" ".local/" "Audiobooks/" ".subversion/" ".netrc" "backup.ab" "MCS - Flyer.pdf" ".tooling/" ".wget-hsts" "package.xml" "MCS - Flyer.pages" "MCS - Flyer 9:2:18.pdf" ".CFUserTextEncoding" ".yarnrc" "globals.sql" "shared-local-instance.db" ".DS_Store" ".php_history" ".vim/" "truly/" ".node-gyp/" ".ivy2/" ".docker/" ".bash_profile.d/" "helloworld" "Music/" ".config/" ".stack/" ".bosh/" ".nix-channels" "../" "./")
 
  ("/Users/me/prog/try-clojure/fwpd/src/fwpd/" (23722 14811 666571 996000) "core.clj" "../" "./")
 
@@ -115,12 +184,6 @@
  ("/Users/me/prog/try-clojure/shire-model/src/" (23677 26606 339371 218000) "shire_model/" "../" "./")
 
  ("/Users/me/prog/try-clojure/clojure-noob/src/clojure_noob/" (23716 61405 489311 863000) ".#core.clj" "core.clj" "../" "./")
-
- ("/Users/me/.emacs.d/" (23712 19826 726263 829000) ".smex-items" "backups/" "themes/" "old.git/" "emacs-for-clojure-book1.zip" "elpa/" "recentf" ".gitignore" ".recentf" "init.el" ".init.el.swp" "auto-save-list/" "etc/" "transient/" "projectile-bookmarks.eld" "customizations/" "lisp/" "emacs-for-clojure-book1/" "ido.last" "forge-database.sqlite" "snippets/" "../" "./")
-
- ("/home/" (23710 16063 702034 0) "../" "./")
-
- ("/Users/" (23498 49818 194982 483000) "Guest/" "me/" "Shared/" ".localized" "../" "./")
 
  ("/Users/me/prog/try-clojure/emacs/" (23710 65062 26871 324000) ".#jack-handy" "../" "./")
 
