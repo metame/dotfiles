@@ -523,7 +523,7 @@
 ;; (load "ui.el")
 
 (add-to-list 'default-frame-alist
-                       '(font . "DejaVu Sans Mono-12"))
+                       '(font . "Andale Mono 12"))
 
 
 (setq debug-on-error nil)

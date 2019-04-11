@@ -1,8 +1,8 @@
 
 ;; ----- smex-history -----
 (
- cider-jack-in
  paredit-mode
+ cider-jack-in
  clojure-mode
  package-install
  package-refresh-contents
@@ -18,6 +18,6 @@
  (package-install . 12)
  (package-refresh-contents . 3)
  (cider . 1)
- (paredit-mode . 7)
+ (paredit-mode . 8)
  (clojure-mode . 3)
 )
